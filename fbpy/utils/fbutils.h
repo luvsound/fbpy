@@ -1,6 +1,9 @@
 #ifndef __FBUTILS_H__
 #define __FBUTILS_H__
 
+#define png_infopp_NULL (png_infopp)NULL
+#define int_p_NULL (int*)NULL
+
 extern struct Color {
     unsigned char r;
     unsigned char g;
